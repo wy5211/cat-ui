@@ -21,14 +21,6 @@ type AnchorButtonProps = BaseButtonProps & AnchorHTMLAttributes<HTMLElement>;
 
 export type ButtonProps = Partial<NativeButtonProps & AnchorButtonProps>;
 
-/**
- * 具有动画效果的button按钮
- * ### 引用方法
- *
- * ~~~js
- * import { Button } from 'chenshone-ui'
- * ~~~
- */
 export const Button: FC<ButtonProps> = (props) => {
   const { className, disabled, size, btnType, children, href, ...restProps } =
     props;
