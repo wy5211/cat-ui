@@ -22,7 +22,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "prettier -w ./src/**/*.js"
+    "lint": "prettier -w ./src/**/*"
   },
   "pre-commit": [
     "lint"
