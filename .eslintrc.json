@@ -19,6 +19,7 @@
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
     "quotes": "off",
-    "no-console": "warn"
+    "no-console": "warn",
+    "react/prop-types": 0
   }
 }

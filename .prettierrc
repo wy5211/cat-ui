@@ -2,5 +2,6 @@
   "singleQuote": true,
   "tabWidth": 2,
   "arrowParens": "always",
-  "semi": true
+  "semi": true,
+  "jsxSingleQuote": true
 }
